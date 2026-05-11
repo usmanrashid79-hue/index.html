@@ -1,0 +1,135 @@
+# index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Strike Update - April 2026</title>
+    <style>
+        /* CSS - The Design */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0b0e11;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #ff4757;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1000x400'); /* Replace with a Blood Strike Image */
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border: 2px solid #ff4757;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .update-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #1c1f24;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #ff4757;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            background-color: #252a30;
+        }
+
+        .card h2 {
+            color: #ff4757;
+            margin-top: 0;
+        }
+
+        .badge {
+            background-color: #ff4757;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BLOOD STRIKE NEWS</h1>
+</header>
+
+<div class="container">
+    <div class="hero">
+        <span class="badge">LATEST UPDATE</span>
+        <h1>Version 2026.04.28</h1>
+        <p>New Weapons, Map Changes, and 200M Celebration!</p>
+    </div>
+
+    <div class="update-grid">
+        <!-- Update Card 1 -->
+        <div class="card">
+            <h2>200M Festival</h2>
+            <p>Blood Strike has reached 200 million players! Log in between April 30 and May 8 to participate in the 200M Lucky Draw. 10 lucky players will win 200 million Gold!</p>
+        </div>
+
+        <!-- Update Card 2 -->
+        <div class="card">
+            <h2>New Eternal Weapons</h2>
+            <p>The <b>FN2000 - Vessel</b> arrives May 8. Also, complete missions to get the <b>Desert Eagle - Scorpius</b> for free via the Scorpius Stash!</p>
+        </div>
+
+        <!-- Update Card 3 -->
+        <div class="card">
+            <h2>Map Changes</h2>
+            <p>Shutter Island has evolved. The Valley and Skyline Beach airships are now permanently docked. Note: The space-time rift has been disabled.</p>
+        </div>
+
+        <!-- Update Card 4 -->
+        <div class="card">
+            <h2>S&D Optimization</h2>
+            <p>Search and Destroy mode is now faster. Every attacker starts with a C4, and defusal time for defenders has been reduced.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fan Made Blood Strike News | Created with AI help</p>
+</footer>
+
+</body>
+</html>
